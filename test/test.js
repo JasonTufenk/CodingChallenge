@@ -1,7 +1,7 @@
 import isPalindrome from "../src/main.js";
 import assert from "assert";
 
-describe("Array", function () {
+describe("Palindrome Checker Function", function () {
   it("should return true when given a lowercase palindrome", () => {
     assert(isPalindrome("racecar"));
     assert(isPalindrome("ana"));
