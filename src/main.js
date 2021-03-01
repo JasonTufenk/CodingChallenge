@@ -6,7 +6,6 @@ function sanitize(a) {
   return a.replace(/[^A-Z0-9]/gi, "").toLowerCase();
 }
 
-// Palindrome Function
 export default function isPalindrome(a) {
   if (!check(a)) return false;
   else {
@@ -17,5 +16,3 @@ export default function isPalindrome(a) {
     return true;
   }
 }
-
-console.log(typeof "racecar");
