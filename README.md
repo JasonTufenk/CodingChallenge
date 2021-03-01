@@ -13,3 +13,11 @@ Run the following command:
 Run the following command:
 
 `yarn mocha`
+
+### Test Cases
+
+|scenario|type|
+|null string|negative|
+|empty string|negative|
+|palindrome with punctuation|positive|
+|palindrome with uneven casing| positive|
