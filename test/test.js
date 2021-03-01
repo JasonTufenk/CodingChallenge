@@ -2,14 +2,14 @@ import isPalindrome from "../src/main.js";
 import assert from "assert";
 
 describe("Array", function () {
-  it("should return true when given a palindrome", () => {
+  it("should return true when given a lowercase palindrome", () => {
     assert(isPalindrome("racecar"));
     assert(isPalindrome("ana"));
   });
 
   it("should return false when given a string that is not a palindrome", () => {
     assert(!isPalindrome("Hat"));
-    assert(!isPalindrome("Hello"));
+    assert(!isPalindrome("hello"));
   });
 
   it("should be case insensitive when determining if a string is a palindrome", () => {

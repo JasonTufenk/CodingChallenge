@@ -16,8 +16,11 @@ Run the following command:
 
 ### Test Cases
 
-|scenario|type|
-|null string|negative|
-|empty string|negative|
-|palindrome with punctuation|positive|
-|palindrome with uneven casing| positive|
+| scenario                      | type     |
+| ----------------------------- | -------- |
+| lowercase palindrome          | positive |
+| lowercase non-palindrome      | negative |
+| palindrome with uneven casing | positive |
+| null                          | negative |
+| empty string                  | negative |
+| palindrome with punctuation   | positive |
